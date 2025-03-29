@@ -1,0 +1,47 @@
+# Editor files
+.vscode/*
+
+# Build files
+build/*
+
+# Subprojects
+subprojects/*
+
+# Except packagefiles folder and its contents
+!subprojects/packagefiles/
+!subprojects/packagefiles/**
+!subprojects/**.wrap
+
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
